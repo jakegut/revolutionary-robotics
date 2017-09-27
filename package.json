@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "http://jakerg.me/revolutionary-robotics-website/",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -93,7 +94,7 @@
   },
   "eslintConfig": {
     "extends": "react-app",
-    "env":{
+    "env": {
       "jquery": true
     }
   }
