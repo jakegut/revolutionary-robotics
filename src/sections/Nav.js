@@ -15,10 +15,10 @@ class Navigation extends Component {
                 <a className="nav-link js-scroll-trigger" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+                <a className="nav-link js-scroll-trigger" href="#about-game">The Game</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                <a className="nav-link js-scroll-trigger" href="#link-process">Proccess</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>

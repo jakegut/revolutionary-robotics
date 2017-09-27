@@ -1,0 +1,4 @@
+[submodule "build"]
+	path = build
+	url = https://github.com/jakeryang/revolutionary-robotics-website.git
+	branch = master

@@ -171,7 +171,12 @@ header.masthead {
       color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
-      min-height: 900px; }
+      min-height: 100vh; 
+      padding-top: 48px;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+    }
       header.masthead .header-content {
         position: absolute;
         top: 50%;

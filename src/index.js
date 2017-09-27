@@ -6,6 +6,6 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import 'bootstrap';
 
 
-configureAnchors({offset: -60, scrollDuration: 500});
+configureAnchors({offset: -50, scrollDuration: 500});
 
 ReactDOM.render(<App />, document.getElementById('root'));

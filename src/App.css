@@ -41,7 +41,9 @@ path{
 svg{
   max-height: 400px;
 }
-
+.masthead{
+  min-height: 100vh;
+}
 .masthead::before{
   /*height: 900px;*/
   content: "";
@@ -52,17 +54,18 @@ svg{
   height: 100%;  
   opacity: .30; 
   z-index: -1;
-  background-image: url('./img/header_01.jpg');
+  background: url('./img/header_01.jpg') top right;
 }
 #testimony{
   height: 400px;
-  background-color: gray;
+  background: linear-gradient(to right, rgba(116,182,198,1) 25%, rgba(255,0,132,0) 100%), url('./img/header.jpg') top right;
 }
 #quote {
   position: relative;
   height: 400px;
 }
 #quote blockquote{
+  margin: 10px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -85,9 +88,23 @@ svg{
 }
 
 #aboutTeam{
-  height: 600px;
-  background-color: green;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgba(163, 163, 163, 0.25);
 }
 #aboutSection{
   background-image: url('./img/footer_lodyas.png');
+}
+#process{
+  height: 400px;
+  background-color: #191c31;
+  background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+img{
+  padding: 10px;
+}
+p{
+  font-size: 2vmin;
 }
