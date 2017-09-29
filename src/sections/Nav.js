@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom'
+import twitter from '../img/social/twitter.png';
+import facebook from '../img/social/facebook.png';
+import instagram from '../img/social/instagram.png';
 
 class Navigation extends Component {
   componentDidMount(){
@@ -22,15 +25,14 @@ class Navigation extends Component {
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" style={{color: "white"}} href="#page-top">Revolutionary Robotics</a>
             <div style={{}}className="ham-container" onclick="myFunction(this)">
-  <div className="bar1"></div>
-  <div className="bar2"></div>
-  <div className="bar3"></div>
-</div>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div>
             
           </div>
         </nav>
         <div className="nav-menu">
-          
           <ul>
             <li>
               <div className="cross-container">
@@ -49,7 +51,13 @@ class Navigation extends Component {
             <li className="nav-item">
               <Link to="/process">Process</Link>
             </li>
+            {/* <li className="nav-item">
+              <a className="social" href="#"><img src={twitter}/></a>
+              <a className="social" href="#"><img src={facebook}/></a>
+              <a className="social" href="#"><img src={instagram}/></a>
+            </li> */}
           </ul>
+          
         </div>
       </div>
       )

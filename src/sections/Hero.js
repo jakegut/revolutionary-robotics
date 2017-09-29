@@ -30,9 +30,13 @@ class Hero extends Component {
   }
     render(){
         return(
+			
             <header className="masthead">
-      	<div className="header-content">
+				<div className="container">
+				  <div className="row">
+      	<div className="header-content col-12">
       		<div className="header-content-inner">
+				  
 			      <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 1891.08 944.601" enable-background="new 0 0 1891.08 944.601"
 				 xmlSpace="preserve">
@@ -147,6 +151,8 @@ class Hero extends Component {
 			<a className="learn-more btn btn-primary btn-xl">Learn More</a>
 			
 			</div>
+		</div>
+		</div>
 		</div>
 	</header>
             )

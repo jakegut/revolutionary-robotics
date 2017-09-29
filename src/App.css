@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+html, body, #body{
+  height: 100%;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -18,11 +22,11 @@
   width: 100%;
   background-color: #191C31;
   z-index: 99;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .masthead{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   text-align: center;
 }
 .App-intro {
@@ -102,6 +106,13 @@ svg{
   z-index: -300;
 }
 
+.header-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #header-h1{
   color: #5B151D;
 }
@@ -118,9 +129,14 @@ svg{
   background-color: rgba(163, 163, 163, 0.25);
 }
 #aboutSection{
-  background: url('./img/footer_lodyas.png') fixed;
+  background: url('./img/footer_lodyas.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-top: 40px;
-  height: 100%;
+  min-height: 100vh;
+  
 }
 #process{
   height: 400px;
@@ -202,6 +218,41 @@ a {
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
+}
+
+.learn-more{
+  background-color: #5B151D;
+  padding: 15px;
+  color: white!important;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+.learn-more:hover{
+  background-color: #3F0F14;
+  color: white!important;
+  cursor: pointer;
+}
+
+.social{
+  margin-left: 10px;
+}
+.social img{
+  max-height: 75px;
+}
+
+@media (max-width: 767px) {
+  ul li{
+    margin: 40px;
+    text-decoration: none;
+  }
+  .nav-menu{
+    padding: 10px;
+  }
+  .nav-item{
+    width: 50vw;
+    font-size: 40px;
+  }
 }
 
 @-webkit-keyframes rotation {
