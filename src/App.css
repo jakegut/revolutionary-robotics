@@ -13,7 +13,18 @@
   padding: 20px;
   color: white;
 }
-
+#mainNav{
+  position: fixed;
+  width: 100%;
+  background-color: #191C31;
+  z-index: 99;
+}
+.masthead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .App-intro {
   font-size: large;
 }
@@ -24,15 +35,19 @@
 }
 #cog{
   transform-origin: 383px 564px;
+  -webkit-animation: rotation 30s infinite linear;
 }
 #cog3{
   transform-origin: 867px 236px;
+  -webkit-animation: neg-rotation 20s infinite linear;
 }
 #cog2{
   transform-origin: 1236px  457px;
+  -webkit-animation: rotation 20s infinite linear;
 }
 #cog4{
   transform-origin: 1657px  341px;
+  -webkit-animation: neg-rotation 20s infinite linear;
 }
 path{
   /*transform-origin: 50% 50%;*/
@@ -54,11 +69,15 @@ svg{
   height: 100%;  
   opacity: .30; 
   z-index: -1;
-  background: url('./img/header_01.jpg') top right;
+  background: url('./img/header_01.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #testimony{
   height: 400px;
-  background: linear-gradient(to right, rgba(116,182,198,1) 25%, rgba(255,0,132,0) 100%), url('./img/header.jpg') top right;
+  background: linear-gradient(to right, rgba(116,182,198,1) 25%, rgba(255,0,132,0) 100%), url('./img/header.jpg') top right fixed;
 }
 #quote {
   position: relative;
@@ -87,6 +106,11 @@ svg{
   color: #5B151D;
 }
 
+.aboutGame{
+  padding-top: 40px;
+  height: 100vh;
+}
+
 #aboutTeam{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -94,17 +118,105 @@ svg{
   background-color: rgba(163, 163, 163, 0.25);
 }
 #aboutSection{
-  background-image: url('./img/footer_lodyas.png');
+  background: url('./img/footer_lodyas.png') fixed;
+  padding-top: 40px;
+  height: 100%;
 }
 #process{
   height: 400px;
-  background-color: #191c31;
+  background-color: #a0c4ff;
   background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+  padding-top: 40px;
+  height: 100vh;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 img{
   padding: 10px;
 }
 p{
-  font-size: 2vmin;
+  font-size: 16px;
+}
+
+.nav-menu{
+  transform: translateX(100%);
+  background: url('./img/r_logo.png') no-repeat center 100px, #5B151D;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  padding: 80px;
+  transition: all 0.5s ease;
+  overflow-y: scroll;
+}
+
+.cross-container {
+  color: white;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 0;
+}
+
+#x{
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+  float: right;
+}
+ul li{
+  margin: 40px;
+  text-decoration: none;
+}
+.nav-item{
+  width: 25vw;
+  font-size: 60px;
+}
+.nav-item a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ham-container {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+
+.show-menu{
+  transform: translateX(0)!important;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes neg-rotation {
+		from {
+				-webkit-transform: rotate(359deg);
+		}
+		to {
+				-webkit-transform: rotate(0deg);
+		}
 }

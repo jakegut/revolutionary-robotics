@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Testimony extends Component{
     render(){
         return(
-            <ScrollableAnchor id={'link-testimony'}>
             <div id="testimony">
         		<div className="container">
         			<div className="row">
@@ -16,7 +14,6 @@ class Testimony extends Component{
         			</div>
         		</div>
         	</div>
-        	</ScrollableAnchor>
             )
     }
 }

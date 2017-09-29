@@ -5,21 +5,25 @@ import Testimony from './sections/Testimony.js';
 import AboutTeam from './sections/AboutTeam.js';
 import AboutGame from './sections/AboutGame.js';
 import TeamProcess from './sections/TeamProcess.js';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 import './css/bootstrap.css';
 import './App.css';
-import './css/creative.css';
 
 class App extends Component {
   render() {
     return (
-      <div id="body">
-        <Navigation />
-      	<Hero />
-				<Testimony />
-				<AboutTeam />
-				<AboutGame />
-				<TeamProcess />
-  		</div>
+      <Router>
+        <div id="body">
+          <Navigation />
+        	<Route exact path="/" component={Hero}/>
+        	<Route path="/about" component={AboutTeam}/>
+        	<Route path="/game" component={AboutGame}/>
+        	<Route path="/process" component={TeamProcess}/>
+    		</div>
+  		</Router>
     );
   }
 }

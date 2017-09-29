@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
 import crossfire from '../img/crossfire.png'
 import bestLogo from '../img/BestLogo.png'
 
 export default class AboutGame extends Component{
     render(){
         return(
-        <ScrollableAnchor id={'about-game'}>
+            <div className="aboutGame">
             <div className="container">
                 <div className="row">
                 <div id="aboutTeam" className="col-md-10 mx-auto">
@@ -33,7 +32,7 @@ export default class AboutGame extends Component{
                     </div>
                 </div>
             </div>
-        </ScrollableAnchor>
+            </div>
         )
     }
 }

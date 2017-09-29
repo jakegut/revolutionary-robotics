@@ -3,23 +3,30 @@ import React, { Component } from 'react';
 
 class Hero extends Component {
   componentDidMount(){
-    var $cog = $('#cog2'),
-      $bigCog = $('#cog'),
-      $body = $(document.body),
-      bodyHeight = $body.height(),
-      $cog2 = $('#cog3, #cog4');
+    // var $cog = $('#cog2'),
+    //   $bigCog = $('#cog'),
+    //   $body = $(document.body),
+    //   bodyHeight = $body.height(),
+    //   rotSpeed = 360 * 1.5,
+    //   slowSpeed = rotSpeed * 2 / 3,
+    //   $cog2 = $('#cog3, #cog4');
       
-      //console.log($body.scrollTop());
+    //   //console.log($body.scrollTop());
       
-      $(window).on("scroll", function () {
-          $bigCog.attr('transform', 'rotate(' + ($(window).scrollTop() / bodyHeight * 240) + ')');
-          $cog.css({
-              'transform': 'rotate(' + ($(window).scrollTop() / bodyHeight * 360) + 'deg)'
-          });
-          $cog2.css({
-              'transform': 'rotate(-' + ($(window).scrollTop() / bodyHeight * 360) + 'deg)'
-          });
-      });
+    //   $(window).on("scroll", function () {
+    //       $bigCog.css({
+    //           'transform': 'rotate(' + ($(window).scrollTop() / bodyHeight * slowSpeed) + 'deg)'
+    //       });
+    //       $cog.css({
+    //           'transform': 'rotate(' + ($(window).scrollTop() / bodyHeight * rotSpeed) + 'deg)'
+    //       });
+    //       $cog2.css({
+    //           'transform': 'rotate(-' + ($(window).scrollTop() / bodyHeight * rotSpeed) + 'deg)'
+    //       });
+    //   });
+    $('.learn-more').click(function(e){
+    	$('.nav-menu').addClass('show-menu');	
+    });
   }
     render(){
         return(
@@ -137,7 +144,7 @@ class Hero extends Component {
 			</svg>
 			<h1 id="header-h1">Revolutionary Robotics</h1>
 			<h2 id="header-h1"><i>Innovating bit by bit.</i></h2>
-			<a href="#link-testimony" className="btn btn-primary btn-xl">Learn More</a>
+			<a className="learn-more btn btn-primary btn-xl">Learn More</a>
 			
 			</div>
 		</div>
