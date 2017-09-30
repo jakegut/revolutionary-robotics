@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom'
-import twitter from '../img/social/twitter.png';
-import facebook from '../img/social/facebook.png';
-import instagram from '../img/social/instagram.png';
+// import twitter from '../img/social/twitter.png';
+// import facebook from '../img/social/facebook.png';
+// import instagram from '../img/social/instagram.png';
 
 class Navigation extends Component {
   componentDidMount(){
