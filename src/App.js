@@ -6,8 +6,8 @@ import AboutTeam from './sections/AboutTeam.js';
 import AboutGame from './sections/AboutGame.js';
 import TeamProcess from './sections/TeamProcess.js';
 import {
-  BrowserRouter as Router,
-  Route
+  Route,
+  HashRouter as Router 
 } from 'react-router-dom'
 import './css/bootstrap.css';
 import './App.css';
