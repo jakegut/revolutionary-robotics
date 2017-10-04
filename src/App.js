@@ -7,7 +7,7 @@ import AboutGame from './sections/AboutGame.js';
 import TeamProcess from './sections/TeamProcess.js';
 import {
   Route,
-  HashRouter as Router 
+  BrowserRouter as Router 
 } from 'react-router-dom'
 import './css/bootstrap.css';
 import './App.css';

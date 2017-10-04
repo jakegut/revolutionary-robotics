@@ -121,6 +121,14 @@ svg{
   height: 100vh;
   padding-top: 40px;
   text-align: center;
+  background: url('./img/team_pic.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.about-info{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .aboutGame{
@@ -318,4 +326,8 @@ a {
 .processHero{
   padding-top: 50px;
   min-height: 100vh;
+}
+
+.virtues div{
+  margin-top: 20px;
 }
