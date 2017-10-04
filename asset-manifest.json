@@ -1,10 +1,12 @@
 {
-  "main.css": "static/css/main.8178d8e4.css",
-  "main.js": "static/js/main.c487cbde.js",
+  "main.css": "static/css/main.072b6911.css",
+  "main.js": "static/js/main.511bccc1.js",
   "static/media/BestLogo.png": "static/media/BestLogo.153a75d1.png",
   "static/media/crossfire.png": "static/media/crossfire.90059f44.png",
   "static/media/header.jpg": "static/media/header.8d075b03.jpg",
   "static/media/header_01.jpg": "static/media/header_01.db6c770b.jpg",
   "static/media/r_logo.png": "static/media/r_logo.5d09bbae.png",
-  "static/media/rr_logo.png": "static/media/rr_logo.6aaa56a7.png"
+  "static/media/rr_logo.png": "static/media/rr_logo.6aaa56a7.png",
+  "static/media/rr_logo_white.png": "static/media/rr_logo_white.f9fe0eb0.png",
+  "static/media/team_pic.png": "static/media/team_pic.f98f47e9.png"
 }
