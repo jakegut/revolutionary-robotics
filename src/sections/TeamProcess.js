@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 export default class TeamProcess extends Component{
     render(){
         return(
-            <ScrollableAnchor id={'link-process'}>
             <div id="process">
+                <div className="processHero">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="text-center">
+                                    <h1>The Design Process</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         	</div>
-        	</ScrollableAnchor>
             )
     }
 }

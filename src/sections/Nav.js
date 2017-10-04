@@ -5,6 +5,7 @@ import {
 // import twitter from '../img/social/twitter.png';
 // import facebook from '../img/social/facebook.png';
 // import instagram from '../img/social/instagram.png';
+import rr_white from '../img/rr_logo_white.png';
 
 class Navigation extends Component {
   componentDidMount(){
@@ -23,22 +24,19 @@ class Navigation extends Component {
         <div>
           <nav id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" style={{color: "white"}} href="#page-top">Revolutionary Robotics</a>
+            <Link className="navbar-brand js-scroll-trigger" style={{color: "white"}} to="/">Revolutionary Robotics</Link>
             <div style={{}}className="ham-container" onclick="myFunction(this)">
-            <div className="bar1"></div>
-            <div className="bar2"></div>
-            <div className="bar3"></div>
-          </div>
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
             
           </div>
         </nav>
         <div className="nav-menu">
-          <ul>
-            <li>
-              <div className="cross-container">
-                <span id="x" style={{textAlign: "right"}}>X</span>
-              </div>
-            </li>
+        <Link className="rr_nav"to="/"><img style={{width: "33.3vw"}}src={rr_white}/></Link>
+          <span className="cross-container" style={{textAlign: "right"}}>X</span>
+          <ul className="real-nav" style={{padding: "0", position: "absolute"}}>
             <li className="nav-item">
               <Link to="/">Home</Link>
             </li>
