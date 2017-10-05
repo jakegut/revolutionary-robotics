@@ -15,7 +15,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/revolutionary-robotics">
         <div id="body">
           <Navigation />
         	<Route exact path="/" component={Hero}/>

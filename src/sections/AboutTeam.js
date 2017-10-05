@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import rrLogo from '../img/rr_logo.png';
-var FontAwesome = require('react-fontawesome');
+import arrow from '../img/white-down-arrow.png';
 
 export default class AboutTeam extends Component{
     render(){
@@ -12,8 +12,8 @@ export default class AboutTeam extends Component{
                         <div className="row">
                             <div className="col-12">
                                 <img style={{ maxHeight: "400px", maxWidth: "80%"}} src={rrLogo}/>
-                                <h1><b>About the Team</b></h1>
-                                <a href="#link-about"><FontAwesome name='rocket' /></a>
+                                <h1 style={{color: "white"}}><b>About the Team</b></h1>
+                                <a href="#link-about"><img width="75px" height="75px" src={arrow} /></a>
                             </div>
                         </div>
                     </div>

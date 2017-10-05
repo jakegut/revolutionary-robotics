@@ -39,7 +39,7 @@ html, body, #body{
 }
 #cog{
   transform-origin: 383px 564px;
-  -webkit-animation: rotation 30s infinite linear;
+  -webkit-animation: rotation 32.5s infinite linear;
 }
 #cog3{
   transform-origin: 867px 236px;
@@ -190,7 +190,7 @@ p{
 
 .cross-container {
   color: white;
-  padding: 5px;
+  padding: 10px;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 2em;
   font-weight: bold;
@@ -199,6 +199,9 @@ p{
   position: absolute;
   top: 75px;
   right: 75px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
 }
 
 .real-nav{
@@ -311,12 +314,12 @@ a {
 				-webkit-transform: rotate(0deg);
 		}
 		to {
-				-webkit-transform: rotate(359deg);
+				-webkit-transform: rotate(360deg);
 		}
 }
 @-webkit-keyframes neg-rotation {
 		from {
-				-webkit-transform: rotate(359deg);
+				-webkit-transform: rotate(360deg);
 		}
 		to {
 				-webkit-transform: rotate(0deg);

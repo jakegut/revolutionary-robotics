@@ -34,7 +34,7 @@ class Hero extends Component {
             <header className="masthead">
 				<div className="container">
 				  <div className="row">
-      	<div className="header-content col-12">
+      	<div className="header-content col-sm-6 col-xs-12">
       		<div className="header-content-inner">
 				  
 			      <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
