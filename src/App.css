@@ -142,7 +142,8 @@ svg{
   justify-content: center;
 }
 #aboutSection .container .row{
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 #aboutTeam{
@@ -277,7 +278,12 @@ a {
 
 .social{
   margin-left: 10px;
+  transition: .25s ease;
 }
+.social:hover{
+  opacity: 0.25;
+}
+
 .social img{
   max-height: 75px;
 }
