@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import rrLogo from '../img/rr_logo.png';
 import arrow from '../img/white-down-arrow.png';
+import homeDepot from '../img/sponsors/THD_logo.jpg';
+import wayback from '../img/sponsors/wayback.png';
 
 export default class AboutTeam extends Component{
     render(){
@@ -84,6 +86,22 @@ export default class AboutTeam extends Component{
                     </div>
                 </div>
                 </ScrollableAnchor>
+                <div className="sponsors">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 text-center">
+                                <h3>Our Sponsors</h3>
+                            </div>
+                            <div className="col-md-6 text-center">
+                                <img style={{height: "150px", width: "auto"}} src={homeDepot} />
+                            </div>
+                            <div className="col-md-6 text-center">
+                                <h2>The Mosley Family</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         )
     }

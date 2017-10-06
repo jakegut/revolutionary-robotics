@@ -340,3 +340,10 @@ a {
 .virtues div{
   margin-top: 20px;
 }
+
+.footer{
+  background: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
