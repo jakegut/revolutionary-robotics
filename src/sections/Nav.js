@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom'
-import twitter from '../img/social/twitter.png';
-import facebook from '../img/social/facebook.png';
-import instagram from '../img/social/instagram.png';
 import rr_white from '../img/rr_logo_white.png';
 
 class Navigation extends Component {
@@ -48,11 +45,6 @@ class Navigation extends Component {
             </li>
             <li className="nav-item">
               <Link to="/process">Process</Link>
-            </li>
-            <li className="nav-item">
-              <a className="social" href="https://twitter.com/bchs_robotics"><img src={twitter}/></a>
-              <a className="social" href="https://www.facebook.com/RevolutionaryRobotics/"><img src={facebook}/></a>
-              <a className="social" href="https://www.instagram.com/bchs_robotics/"><img src={instagram}/></a>
             </li>
           </ul>
           

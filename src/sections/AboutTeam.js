@@ -3,7 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import rrLogo from '../img/rr_logo.png';
 import arrow from '../img/white-down-arrow.png';
 import homeDepot from '../img/sponsors/THD_logo.jpg';
-import wayback from '../img/sponsors/wayback.png';
+import mission from '../img/about/our_mission.jpeg';
 
 export default class AboutTeam extends Component{
     render(){
@@ -25,10 +25,10 @@ export default class AboutTeam extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="col-12 text-center">
-                                <h2>Our Mission</h2>
+                                <h1 className="about-sub">Our Mission</h1>
                             </div>
                             <div className="col-md-6 text-center">
-                                <img style={{ maxHeight: "200px", maxWidth: "100%"}} src={rrLogo}/>
+                                <img className="about-image" style={{ maxHeight: "200px", maxWidth: "100%"}} src={mission}/>
                             </div>
                             <div className="col-md-6 text-left ourSections">
                                 <p>Revolutionary Robotics is committed to moving technology forward by creating effective and efficient robotic devices. Our company is dedicated to innovative research and development that supports growth, learning, and service in industry and in our community.</p>
@@ -36,7 +36,7 @@ export default class AboutTeam extends Component{
                         </div>
                         <div className="row">
                             <div className="col-12 text-center">
-                                <h2>Our Vision</h2>
+                                <h1 className="about-sub">Our Vision</h1>
                             </div>
                             <div className="col-md-6 text-center">
                                 <img style={{ maxHeight: "200px", maxWidth: "100%"}} src={rrLogo}/>
@@ -47,39 +47,39 @@ export default class AboutTeam extends Component{
                         </div>
                         <div className="row virtues">
                             <div className="col-12 text-center">
-                                <h2>Our Virtues</h2>
+                                <h1 className="about-sub">Our Virtues</h1>
                                 <h4><i>We adhere to eight virtues critical to who we are as a company, as well as individuals</i></h4>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Humility</b></h4>
+                                <h4 className="about-sub"><b>Humility</b></h4>
                                 <p>The team must be able to accept mistakes and grow from them.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Tenacity</b></h4>
+                                <h4 className="about-sub"><b>Tenacity</b></h4>
                                 <p>The team must be willing to work through hardship.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Courage</b></h4>
+                                <h4 className="about-sub"><b>Courage</b></h4>
                                 <p>The team must be willing to speak up and try new things.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Open-mindedness</b></h4>
+                                <h4 className="about-sub"><b>Open-mindedness</b></h4>
                                 <p>The team must be willing to listen to other’s ideas and opinions.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Curiosity</b></h4>
+                                <h4 className="about-sub"><b>Curiosity</b></h4>
                                 <p>The team must be able to research goals and find solutions on their own.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Autonomy</b></h4>
+                                <h4 className="about-sub"><b>Autonomy</b></h4>
                                 <p>The team must be capable of working without receiving direct instructions from mentors/coaches.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Altruism</b></h4>
+                                <h4 className="about-sub"><b>Altruism</b></h4>
                                 <p>The team must be able to recognize other members’ need for help.</p>
                             </div>
                             <div className="col-md-6 text-center">
-                                <h4><b>Integrity</b></h4>
+                                <h4 className="about-sub"><b>Integrity</b></h4>
                                 <p>The team must honestly contribute to the team and genuinely seek to help.</p>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ export default class AboutTeam extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="col-12 text-center">
-                                <h3>Our Sponsors</h3>
+                                <h1 className="about-sub">Our Sponsors</h1>
                             </div>
                             <div className="col-md-6 text-center">
                                 <img style={{height: "150px", width: "auto"}} src={homeDepot} />

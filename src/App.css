@@ -76,7 +76,7 @@ svg{
   background: url('./img/header_01.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; 
   background-size: cover;
 }
 #testimony{
@@ -133,7 +133,7 @@ svg{
 
 .aboutGame{
   padding-top: 40px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .ourSections{
@@ -170,7 +170,7 @@ svg{
   min-height: 100vh;
 }
 img{
-  padding: 10px;
+  margin: 10px;
 }
 p{
   font-size: 16px;
@@ -346,4 +346,17 @@ a {
   color: white;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.about-sub{
+  color: #5B151D;
+  font-weight: bold;
+}
+
+.about-sub h4{
+  font-weight: bolder;
+}
+
+.about-image{
+  border-radius: 4px;
 }
