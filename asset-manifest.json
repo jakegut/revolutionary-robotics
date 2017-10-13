@@ -1,12 +1,15 @@
 {
-  "main.css": "static/css/main.072b6911.css",
-  "main.js": "static/js/main.50d373f4.js",
+  "main.css": "static/css/main.e5317c76.css",
+  "main.js": "static/js/main.9ce1889a.js",
   "static/media/BestLogo.png": "static/media/BestLogo.153a75d1.png",
+  "static/media/THD_logo.jpg": "static/media/THD_logo.eaf2337c.jpg",
   "static/media/crossfire.png": "static/media/crossfire.90059f44.png",
   "static/media/header.jpg": "static/media/header.8d075b03.jpg",
   "static/media/header_01.jpg": "static/media/header_01.db6c770b.jpg",
+  "static/media/our_mission.jpeg": "static/media/our_mission.6319edae.jpeg",
+  "static/media/our_vision.JPG": "static/media/our_vision.c1814798.JPG",
   "static/media/r_logo.png": "static/media/r_logo.5d09bbae.png",
   "static/media/rr_logo.png": "static/media/rr_logo.6aaa56a7.png",
   "static/media/rr_logo_white.png": "static/media/rr_logo_white.f9fe0eb0.png",
-  "static/media/team_pic.png": "static/media/team_pic.f98f47e9.png"
+  "static/media/team_pic.jpg": "static/media/team_pic.f77473be.jpg"
 }
