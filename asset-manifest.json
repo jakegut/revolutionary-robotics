@@ -1,8 +1,14 @@
 {
-  "main.css": "static/css/main.5ca92aa6.css",
-  "main.js": "static/js/main.16924b5a.js",
+  "main.css": "static/css/main.89bca82d.css",
+  "main.js": "static/js/main.7d73d586.js",
+  "static/media/BISD.JPG": "static/media/BISD.0802c2ea.JPG",
+  "static/media/BarNunn.png": "static/media/BarNunn.176b5682.png",
   "static/media/BestLogo.png": "static/media/BestLogo.153a75d1.png",
+  "static/media/CRASAR.jpg": "static/media/CRASAR.c4c5a615.jpg",
+  "static/media/PTSO.jpg": "static/media/PTSO.f18dd5fa.jpg",
   "static/media/THD_logo.jpg": "static/media/THD_logo.eaf2337c.jpg",
+  "static/media/burger.png": "static/media/burger.b002d1fd.png",
+  "static/media/collegiate.png": "static/media/collegiate.dad4d22b.png",
   "static/media/crossfire.png": "static/media/crossfire.90059f44.png",
   "static/media/header_01.jpg": "static/media/header_01.db6c770b.jpg",
   "static/media/our_mission.jpeg": "static/media/our_mission.6319edae.jpeg",
@@ -10,5 +16,8 @@
   "static/media/r_logo.png": "static/media/r_logo.5d09bbae.png",
   "static/media/rr_logo.png": "static/media/rr_logo.6aaa56a7.png",
   "static/media/rr_logo_white.png": "static/media/rr_logo_white.f9fe0eb0.png",
-  "static/media/team_pic.jpg": "static/media/team_pic.f77473be.jpg"
+  "static/media/spirit.png": "static/media/spirit.2033e618.png",
+  "static/media/tdi.png": "static/media/tdi.623e226c.png",
+  "static/media/team_pic.jpg": "static/media/team_pic.f77473be.jpg",
+  "static/media/wayback.png": "static/media/wayback.457aa089.png"
 }
