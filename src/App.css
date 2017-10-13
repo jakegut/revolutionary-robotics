@@ -53,11 +53,16 @@ html, body, #body{
   transform-origin: 1657px  341px;
   -webkit-animation: neg-rotation 20s infinite linear;
 }
+#process-rotate{
+  transform-origin: 420px 661px;
+  -webkit-animation: rotation 60s infinite linear;
+}
+
 path{
   /*transform-origin: 50% 50%;*/
   fill: #5B131B;
 }
-svg{
+.svg-logo{
   max-height: 400px;
 }
 .masthead{
@@ -121,7 +126,7 @@ svg{
   height: 100vh;
   padding-top: 40px;
   text-align: center;
-  background: url('./img/team_pic.png') no-repeat center center fixed;
+  background: url('./img/team_pic.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -150,7 +155,6 @@ svg{
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: rgba(163, 163, 163, 0.25);
 }
 #aboutSection{
   /*background: url('./img/footer_lodyas.png') no-repeat center center fixed; */

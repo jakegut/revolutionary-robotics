@@ -37,7 +37,7 @@ class Hero extends Component {
       	<div className="header-content col-sm-6 col-xs-12">
       		<div className="header-content-inner">
 				  
-			      <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			      <svg id="svg-logo" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 1891.08 944.601" enable-background="new 0 0 1891.08 944.601"
 				 xmlSpace="preserve">
 			<g>

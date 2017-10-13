@@ -4,6 +4,7 @@ import rrLogo from '../img/rr_logo.png';
 import arrow from '../img/white-down-arrow.png';
 import homeDepot from '../img/sponsors/THD_logo.jpg';
 import mission from '../img/about/our_mission.jpeg';
+import vision from '../img/about/our_vision.JPG';
 
 export default class AboutTeam extends Component{
     render(){
@@ -39,7 +40,7 @@ export default class AboutTeam extends Component{
                                 <h1 className="about-sub">Our Vision</h1>
                             </div>
                             <div className="col-md-6 text-center">
-                                <img style={{ maxHeight: "200px", maxWidth: "100%"}} src={rrLogo}/>
+                                <img className="about-image" style={{ maxHeight: "200px", maxWidth: "100%"}} src={vision}/>
                             </div>
                             <div className="col-md-6 text-left ourSections">
                                 <p>Continuously outperform the competition through forward thinking and become the leader a bright and well-built future, together.</p>
