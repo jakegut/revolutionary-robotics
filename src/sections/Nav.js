@@ -3,6 +3,9 @@ import {
   Link
 } from 'react-router-dom'
 import rr_white from '../img/rr_logo_white.png';
+import twitter from '../img/social/twitter.png';
+import facebook from '../img/social/facebook.png';
+import instagram from '../img/social/instagram.png';
 
 class Navigation extends Component {
   componentDidMount(){
@@ -13,6 +16,9 @@ class Navigation extends Component {
       $('.nav-menu').removeClass('show-menu');
     });
     $('.nav-item').click(function(e){
+      $('.nav-menu').removeClass('show-menu');
+    });
+    $('.rr_nav').click(function(e){
       $('.nav-menu').removeClass('show-menu');
     });
   }
@@ -45,6 +51,11 @@ class Navigation extends Component {
             </li>
             <li className="nav-item">
               <Link to="/process">Process</Link>
+            </li>
+            <li className="nav-item">
+              <a className="social" href="https://www.facebook.com/RevolutionaryRobotics/"><img src={facebook}/></a>
+              <a className="social" href="https://twitter.com/bchs_robotics"><img src={twitter}/></a>
+              <a className="social" href="https://www.instagram.com/bchs_robotics/"><img src={instagram}/></a>
             </li>
           </ul>
           
