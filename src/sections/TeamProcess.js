@@ -16,7 +16,7 @@ export default class TeamProcess extends Component{
                         <div className="row">
                             <div className="col-12">
                                 <div className="text-center">
-                                <svg style={{width: "100%", height: "auto"}}version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg style={{maxWidth: "100%", height: "90vh"}}version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="835px" height="964.45px" viewBox="0 0 835 964.45" enable-background="new 0 0 835 964.45" xmlSpace="preserve">
                            <g id="process-rotate">
                                <g>
